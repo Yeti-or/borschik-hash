@@ -1,6 +1,6 @@
 {
   "name": "borschik-hash",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "description": "Borschik hash function to freeze files",
   "license": "MIT",
   "repository": "borschik/borschik-hash",
@@ -15,7 +15,11 @@
     "base64"
   ],
   "main": "index.js",
+  "bin": {
+    "borschik-hash": "bin/cli.js"
+  },
   "files": [
+    "bin/**",
     "lib/**",
     "index.js"
   ],
